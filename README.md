@@ -1,2 +1,2 @@
 # polybius
-something special
+something special for a special event
