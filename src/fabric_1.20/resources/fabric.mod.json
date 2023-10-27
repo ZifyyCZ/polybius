@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "polybius",
+  "version": "${version}",
+  "name": "Polybius",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/ZifyyCZ/Polybius"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/polybius/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.zifyy.mods.polybius.PolybiusClient"
+    ]
+  },
+  "mixins": [
+    "polybius.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
